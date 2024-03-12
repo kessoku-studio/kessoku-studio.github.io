@@ -23,6 +23,9 @@ dependencies:
   npm:
     specifier: ^10.2.5
     version: 10.5.0
+  pnpm:
+    specifier: ^8.6.12
+    version: 8.15.4
   preact:
     specifier: ^10.19.3
     version: 10.19.6
@@ -3020,6 +3023,12 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       find-up: 4.1.0
+    dev: false
+
+  /pnpm@8.15.4:
+    resolution: {integrity: sha512-C9Opvp6w6aaSZ23uwAowO6IYuiedmSQUdWFrOY267t0RFG+SwoQ0WPVXsdEn4J1MFx4QW9zWthACs5aFqAFrng==}
+    engines: {node: '>=16.14'}
+    hasBin: true
     dev: false
 
   /postcss-import@15.1.0(postcss@8.4.35):
